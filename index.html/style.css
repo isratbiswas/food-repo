@@ -1,0 +1,86 @@
+body {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+   
+}
+h1 {
+    font-size:50px;
+}
+h2 {
+    font-size: 25px;
+}
+.green-color {
+    color:green;
+}
+.flexible-container {
+    display:flex;
+    margin-bottom:125px;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img {
+    width:70%;
+}
+
+.my-recipies {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.link-button {
+    text-decoration:none;
+    padding: 10px 45px;
+    background-image: linear-gradient(orange, green);
+    border-radius:10px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.about me {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.recipies-item {
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 35px yellowgreen;
+    border-left: 10px solid;
+}
+
+#pizza {
+    
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 8px;
+
+}
+#pasta {
+   
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 8px;
+}
+#sandwich {
+   
+    box-shadow: 5px 5px 10px gray ;
+    border-radius: 8px;
+}
+footer p {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:25px;
+    display: block
+}
